@@ -6,8 +6,8 @@ const nextConfig = {
     images: {
         unoptimized: true, // disables Image Optimization (since GitHub Pages doesn't support it)
     },
-    basePath: '/malacoda-movie-website', // <-- only if your repo name is NOT username.github.io
+    basePath: '/movie', // <-- only if your repo name is NOT username.github.io
     assetPrefix: '/movie/', // same as above
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
