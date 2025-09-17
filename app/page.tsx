@@ -44,8 +44,7 @@ export default function Home() {
             MALACODA
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-300">
-            A sleepless Puerto Rican college student is stalked by a demon from Dante’s
-            Inferno—one that knows him better than he knows himself.
+            A film about finding yourself in the darkness.
           </p>
           <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors flex items-center mx-auto">
             <Play className="w-5 h-5 mr-2" />
@@ -61,10 +60,8 @@ export default function Home() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-red-500 font-bodoni">Synopsis</h2>
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                When an introverted college student finds himself trapped in a library blackout with his
-                best friend Lily, an unexpected interaction with an attractive young man forces him to
-                confront his newfound desires in the form of an ancient demon leaping out of the pages
-                of Dante’s Inferno.
+                A sleepless Puerto Rican college student is stalked by a demon from Dante’s
+                Inferno—one that knows him better than he knows himself.
               </p>
             </div>
             <div className="relative">
@@ -325,7 +322,7 @@ export default function Home() {
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Screenings</a>
             </div>
             <div className="mt-8 pt-8 border-t border-gray-800">
-              <p className="text-gray-500 text-sm">© 2024 Malacoda Film. All rights reserved.</p>
+              <p className="text-gray-500 text-sm">© 2025 Guillermo Rodriguez. All rights reserved.</p>
             </div>
           </div>
         </div>
