@@ -40,7 +40,7 @@ export default function Home() {
                 </div>
 
                 <div className="relative z-20 text-center max-w-4xl mx-auto px-4">
-                    <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-red-500 to-purple-500 bg-clip-text text-transparent font-bodoni">
+                    <h1 className="text-6xl md:text-8xl font-bold mb-6 text-red-500 font-bodoni">
                         MALACODA
                     </h1>
                     <p className="text-xl md:text-2xl mb-8 text-gray-300">
