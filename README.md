@@ -1,3 +1,13 @@
+Build directions
+make changes in branch main
+then commit
+then:
+npm run build
+checkout gh-pages
+cp -R out/* ./
+add all new files
+git commit && git push
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
