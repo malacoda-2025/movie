@@ -339,18 +339,27 @@ export default function Home() {
                             Behind the Scenes
                         </h3>
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            {[{id: 1, src: 'PXL_20250730_162009659.jpg'}, {
+                            {[{id: 1, src: 'PXL_20250730_163119709_Original.jpg'}, {
                                 id: 2,
-                                src: 'PXL_20250730_163059819.jpg'
-                            }, {id: 3, src: 'PXL_20250731_185556162.jpg'}, {
-                                id: 4,
                                 src: 'PXL_20250730_165146438.MP.jpg'
-                            }, {id: 5, src: 'PXL_20250730_170915414.MP.jpg'}, {
+                            },
+                                {id: 3, src: 'PXL_20250730_173846718.MP_Original.jpg'},
+                                {
+                                id: 4,
+                                src: '707519450007310104.jpg'
+                            },
+                                {
+                                    id: 5,
+                                    src: '5390112859903086138.jpg'
+                                },
+                            {
                                 id: 6,
-                                src: 'PXL_20250730_173044126.MP.jpg'
-                            }, {id: 7, src: 'PXL_20250730_162009659.jpg'}, {
+                                src: 'IMG_1115.jpg'
+                            },
+                                {id: 7, src: 'PXL_20250731_222247478_Original.jpg'},
+                            {
                                 id: 8,
-                                src: 'PXL_20250730_181740885.jpg'
+                                src: '3418804458213328473.jpg'
                             }].map((i) => (
                                 <div key={i.id} className="group">
                                     <div
