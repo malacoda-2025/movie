@@ -52,11 +52,12 @@ export default function Home() {
                     <p className="text-xl md:text-2xl mb-8 text-gray-300">
                         A film about finding yourself in the darkness.
                     </p>
+                    {/*}
                     <button
                         className="bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors flex items-center mx-auto">
                         <Play className="w-5 h-5 mr-2"/>
                         Watch Trailer
-                    </button>
+                    </button>*/}
                 </div>
             </section>
 
