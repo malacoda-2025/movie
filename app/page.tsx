@@ -67,11 +67,16 @@ export default function Home() {
                         </div>
                         <div className="relative">
                             {/* Placeholder for official poster */}
-                            <div className="aspect-[2/3] bg-gray-800 rounded-lg flex items-center justify-center">
+                            <div className="aspect-[2/3] bg-gray-800 rounded-lg flex items-center justify-center"
+                                 style={{
+                                     backgroundImage: `url("poster/webposter.png")`,
+                                     backgroundSize: 'cover',
+                                     backgroundPosition: 'center'
+                                 }}>{/*
                                 <div className="text-center text-gray-500">
                                     <ImageIcon className="w-16 h-16 mx-auto mb-4"/>
                                     <p>Official Poster</p>
-                                </div>
+                                </div>*/}
                             </div>
                         </div>
                     </div>
