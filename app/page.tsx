@@ -33,7 +33,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gray-900">
                     <div className="w-full h-full flex items-center justify-center text-gray-600"
                          style={{
-                             backgroundImage: `url("masthead/masthead.png")`,
+                             backgroundImage: `url("masthead/masthead1.png")`,
                              backgroundSize: 'cover',
                              backgroundPosition: 'center'
                          }}>
