@@ -1,7 +1,11 @@
+"use client";
+
 import Image from 'next/image';
 import {Play, Users, Camera, Film, ImageIcon, Clapperboard} from 'lucide-react';
+import React, { useState } from 'react'
 
 export default function Home() {
+    let [state, setState] = useState("masthead/masthead.png")
     return (
         <div className="min-h-screen bg-black text-white">
             {/* Navigation */}
@@ -33,10 +37,29 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gray-900">
                     <div className="w-full h-full flex items-center justify-center text-gray-600"
                          style={{
-                             backgroundImage: `url("masthead/masthead1.png")`,
+                             backgroundImage: `url($state)`,
                              backgroundSize: 'cover',
                              backgroundPosition: 'center'
-                         }}>
+                         }}
+                         onClick={() => {
+                             switch (state) {
+                                 case "masthead/masthead.png":
+                                     setState("masthead/masthead1.png");
+                                     break;
+
+                                 case "masthead/masthead1.png":
+                                     setState("masthead/masthead2.png");
+                                     break;
+                                 case "masthead/masthead2.png":
+                                     setState("masthead/masthead3.png");
+                                     break;
+
+                                 default:
+                                     setState("masthead/masthead.png");
+                                     break;
+                             }
+                         }}
+                    >
                         {/*}
                         <div className="text-center">
                             <Film className="w-24 h-24 mx-auto mb-4 opacity-30"/>
