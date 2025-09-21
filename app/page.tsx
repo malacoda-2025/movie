@@ -13,7 +13,26 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
-                            <h1 className="text-2xl font-bold text-red-500 font-bodoni">MALACODA</h1>
+                            <h1 className="text-2xl font-bold text-red-500 font-bodoni"
+                                onClick={() => {
+                                    switch (state) {
+                                        case "masthead/masthead.png":
+                                            setState("masthead/masthead1.png");
+                                            break;
+
+                                        case "masthead/masthead1.png":
+                                            setState("masthead/masthead2.png");
+                                            break;
+                                        case "masthead/masthead2.png":
+                                            setState("masthead/masthead3.png");
+                                            break;
+
+                                        default:
+                                            setState("masthead/masthead.png");
+                                            break;
+                                    }
+                                }}
+                            >MALACODA</h1>
                         </div>
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-8">
@@ -41,24 +60,7 @@ export default function Home() {
                              backgroundSize: 'cover',
                              backgroundPosition: 'center'
                          }}
-                         onClick={() => {
-                             switch (state) {
-                                 case "masthead/masthead.png":
-                                     setState("masthead/masthead1.png");
-                                     break;
 
-                                 case "masthead/masthead1.png":
-                                     setState("masthead/masthead2.png");
-                                     break;
-                                 case "masthead/masthead2.png":
-                                     setState("masthead/masthead3.png");
-                                     break;
-
-                                 default:
-                                     setState("masthead/masthead.png");
-                                     break;
-                             }
-                         }}
                     >
                         {/*}
                         <div className="text-center">
