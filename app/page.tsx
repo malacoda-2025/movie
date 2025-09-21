@@ -316,16 +316,53 @@ export default function Home() {
                             Stills
                         </h3>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                            {[1, 2, 3, 4, 5, 6].map((i) => (
-                                <div key={i} className="group">
+                            {[
+                                {
+                                    id: 1,
+                                    src: '1.png'
+                                },
+                                {
+                                    id: 2,
+                                    src: '2.png'
+                                },
+                                {
+                                    id: 3,
+                                    src: '3.png'
+                                },
+                                {
+                                    id: 4,
+                                    src: '4.png'
+                                },
+                                {
+                                    id: 5,
+                                    src: '5.png'
+                                },
+                                {
+                                    id: 6,
+                                    src: '6.png'
+                                },
+                                {
+                                    id: 7,
+                                    src: '7.png'
+                                },
+                                {
+                                    id: 8,
+                                    src: '8.png'
+                                }].map((i) => (
+                                <div key={i.id} className="group">
                                     <div
-                                        className="aspect-video bg-gray-800 rounded-lg overflow-hidden group-hover:scale-105 transition-transform">
-                                        <div className="w-full h-full flex items-center justify-center text-gray-500">
+                                        className="aspect-video bg-gray-800 rounded-lg overflow-hidden group-hover:scale-105 transition-transform"
+                                        style={{
+                                            backgroundImage: `url("stills/${i.src}")`,
+                                            backgroundSize: 'cover',
+                                            backgroundPosition: 'center'
+                                        }}>
+                                        {/*<div className="w-full h-full flex items-center justify-center text-gray-500">
                                             <div className="text-center">
                                                 <ImageIcon className="w-12 h-12 mx-auto mb-2"/>
                                                 <p className="text-sm">Still {i}</p>
                                             </div>
-                                        </div>
+                                        </div>*/}
                                     </div>
                                 </div>
                             ))}
@@ -365,7 +402,7 @@ export default function Home() {
                                     <div
                                         className="aspect-square rounded-lg overflow-hidden group-hover:scale-105 transition-transform"
                                         style={{
-                                            backgroundImage: `url("stills/${i.src}")`,
+                                            backgroundImage: `url("bts/${i.src}")`,
                                             backgroundSize: 'cover',
                                             backgroundPosition: 'center'
                                         }}
