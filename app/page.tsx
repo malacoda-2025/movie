@@ -31,11 +31,17 @@ export default function Home() {
 
                 {/* Placeholder for hero background image */}
                 <div className="absolute inset-0 bg-gray-900">
-                    <div className="w-full h-full flex items-center justify-center text-gray-600">
+                    <div className="w-full h-full flex items-center justify-center text-gray-600"
+                         style={{
+                             backgroundImage: `url("masthead/masthead.png")`,
+                             backgroundSize: 'cover',
+                             backgroundPosition: 'center'
+                         }}>
+                        {/*}
                         <div className="text-center">
                             <Film className="w-24 h-24 mx-auto mb-4 opacity-30"/>
                             <p className="text-sm">Hero Background Image</p>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
 
