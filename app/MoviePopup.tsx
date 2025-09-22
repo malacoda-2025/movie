@@ -15,14 +15,15 @@ export default function MoviePopup({ open, onClose, title, videoSrc } : MoviePop
     return (
         <Dialog open={open} onOpenChange={onClose}>
             <DialogContent className="max-w-5xl w-full p-0 overflow-hidden bg-black rounded-2xl shadow-xl">
-                <DialogHeader className="flex justify-between items-center p-4 bg-zinc-900">
-                    <DialogTitle className="text-white text-xl font-semibold">{title}</DialogTitle>
+                <DialogHeader className="relative flex items-center p-4 bg-zinc-900">
                     <Button
-                        className="text-white hover:bg-zinc-800 rounded-full"
+                        variant="ghost"
+                        className="absolute left-4 text-white hover:bg-zinc-800 rounded-full"
                         onClick={onClose}
                     >
                         <X className="h-5 w-5" />
                     </Button>
+                    <DialogTitle className="mx-auto text-white text-xl font-semibold">{title}</DialogTitle>
                 </DialogHeader>
 
 
