@@ -2,10 +2,13 @@
 
 import Image from 'next/image';
 import {Play, Users, Camera, Film, ImageIcon, Clapperboard} from 'lucide-react';
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import MoviePopup from './MoviePopup';
+
 
 export default function Home() {
-    let [state, setState] = useState("masthead/masthead3.png")
+    const [isOpen, setIsOpen] = useState(false);
+    let [state, setState] = useState("masthead/masthead3.png");
     return (
         <div className="min-h-screen bg-black text-white">
             {/* Navigation */}
@@ -293,23 +296,29 @@ export default function Home() {
                     <h2 className="text-4xl font-bold mb-12 text-center text-red-500 font-bodoni">Clips from the
                         Film</h2>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {[1, 2, 3].map((i) => (
+                        {[1].map((i) => (
                             <div key={i} className="group cursor-pointer">
                                 <div
-                                    className="aspect-video bg-gray-800 rounded-lg overflow-hidden relative group-hover:scale-105 transition-transform">
-                                    <div className="w-full h-full flex items-center justify-center text-gray-500">
+                                    className="aspect-video bg-gray-800 rounded-lg overflow-hidden relative group-hover:scale-105 transition-transform"
+                                    style={{
+                                        backgroundImage: `url("trailers/display.png")`,
+                                        backgroundSize: 'cover',
+                                        backgroundPosition: 'center'
+                                    }}
+                                >
+                                    {/*<div className="w-full h-full flex items-center justify-center text-gray-500">
                                         <div className="text-center">
                                             <Play className="w-16 h-16 mx-auto mb-2"/>
                                             <p>Clip {i}</p>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div
                                         className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                                        <Play className="w-12 h-12 text-white"/>
+                                        <Play className="w-12 h-12 text-white" onClick={() => setIsOpen(true)}/>
                                     </div>
                                 </div>
-                                <h3 className="text-lg font-semibold mt-4">Scene Title {i}</h3>
-                                <p className="text-gray-400 text-sm">Brief description of the clip...</p>
+                                <h3 className="text-lg font-semibold mt-4">Teaser Trailer</h3>
+                                {/*<p className="text-gray-400 text-sm">Brief description of the clip...</p>*/}
                             </div>
                         ))}
                     </div>
@@ -475,6 +484,15 @@ export default function Home() {
                     </div>
                 </div>
             </footer>
+
+
+            {/* Movie Popup */}
+            <MoviePopup
+                open={isOpen}
+                onClose={() => setIsOpen(false)}
+                title="Malacoda Teaser Trailer"
+                videoSrc="trailers/teaser.mp4" // local or remote URL
+            />
         </div>
     );
 }
