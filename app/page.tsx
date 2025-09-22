@@ -57,7 +57,7 @@ export default function Home() {
                         MALACODA
                     </h1>
                     <p className="text-xl md:text-2xl mb-8 text-gray-300">
-                        A film about finding yourself in the darkness.
+
                     </p>
                     {/*}
                     <button
@@ -215,15 +215,8 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Scott Langer</h4>
                                 <p className="text-gray-400">Producer</p>
-                                <p className="text-sm text-gray-500 mt-2">Scott Langer is the founder of Ninety 90
-                                    Pictures. A graduate of the University of Colorado-Boulder with a B.A. in Film
-                                    Studies, he also trained in Method Acting at the Lee Strasberg Institute in New
-                                    York. After overcoming years of addiction with the support of fellow artists and
-                                    family, Scott turned to creating art as a way to sustain his sobriety. His plays
-                                    Amanda the Barbarian and Thank You For Loving Me premiered at the Hollywood Fringe
-                                    Festival, with the latter winning the Producers’ Encore Award. Inspired while
-                                    working on the short film Stay Calm in 2019, Scott founded Ninety 90 Pictures to
-                                    create safe, collaborative sets that support artists at every stage of recovery.</p>
+                                <p className="text-sm text-gray-500 mt-2">Scott Langer is the Founder of Ninety 90 Pictures, a non profit film production company that supports people in recovery from drugs, alcohol, and mental health issues. Langer prides himself on his versatility, having produced web series, educational films, short films, theatrical plays, and the indie TV Pilot Die Pretty which he wrote and produced.
+                                    On Malacoda he served as the Producer, Production Designer, and Costume Designer.</p>
                             </div>
                             <div className="text-center group">
                                 <div
