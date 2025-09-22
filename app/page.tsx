@@ -491,7 +491,7 @@ export default function Home() {
                 open={isOpen}
                 onClose={() => setIsOpen(false)}
                 title="Malacoda Teaser Trailer"
-                videoSrc="https://github.com/malacoda-2025/movie/releases/download/teaser/teaser.mp4" // local or remote URL
+                videoSrc="https://streamable.com/6uk20o" // local or remote URL
             />
         </div>
     );
