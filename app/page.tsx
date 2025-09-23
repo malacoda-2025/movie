@@ -348,19 +348,7 @@ export default function Home() {
                                 },
                                 {
                                     id: 3,
-                                    src: '3.png'
-                                },
-                                {
-                                    id: 4,
-                                    src: '4.png'
-                                },
-                                {
-                                    id: 5,
                                     src: '5.png'
-                                },
-                                {
-                                    id: 6,
-                                    src: '6.png'
                                 }].map((i) => (
                                 <div key={i.id} className="group">
                                     <div
