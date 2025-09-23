@@ -192,15 +192,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Guillermo Rodriguez</h4>
                                 <p className="text-gray-400">Writer, Director, Editor</p>
-                                <p className="text-sm text-gray-500 mt-2">Guillermo R. Rodríguez is a writer, director,
-                                    editor and producer from San Juan, Puerto
-                                    Rico. Guillermo is also Assistant Professor of Cinema and Television Arts at
-                                    California State
-                                    University, Northridge. He is the author of the book Spanish Meta-Art and
-                                    Contemporary
-                                    Cinema: Mirrors to the Unconscious (Bloomsbury, 2023). His directorial debut The
-                                    Shadows premiered at Los Angeles's Outfest LGBTA Film Festival in their Dramatic
-                                    Competition and is currently available on Amazon Prime.</p>
+                                <p className="text-sm text-gray-500 mt-2">Guillermo R. Rodríguez is a writer, director, editor and producer from San Juan, Puerto Rico. He first cultivated his writing talents at Princeton University while workshopping a novel under the mentorship of Gabriel García Márquez and Toni Morrison. But his passion for cinema, specifically exploring the horror genre and representing marginalized voices, compelled him to become a filmmaker. He went on to pursue an M.F.A, and later a Ph.D., at the University of Southern California. His directorial debut The Shadows premiered at Los Angeles’s Outfest LGBTQ Film Festival in their Dramatic Competition and is currently available on Amazon Prime.</p>
                             </div>
                             <div className="text-center group">
                                 <div
@@ -255,14 +247,8 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Martin Jarmick</h4>
                                 <p className="text-gray-400">Virtual Art Director</p>
-                                <p className="text-sm text-gray-500 mt-2">Martin Jarmick is a digital artist, developer,
-                                    and professor at California State University, Northridge. Raised in Seattle and San
-                                    Francisco, he earned his PhD in Digital Art and Experimental Media from the
-                                    University of Washington. His work blends cinema, poetry, and technology, often
-                                    exploring themes of mental health, transformation, and the fragility of reality.
-                                    Collaborating across disciplines—from choreographers and musicians to engineers and
-                                    game designers—Jarmick creates immersive, interactive media that expand narrative
-                                    patterns and invite audiences into intimate, performative experiences.</p>
+                                <p className="text-sm text-gray-500 mt-2">Martin Jarmick is a visual-sonic artist focused on interactive and immersive media as expanded forms of cinema. His projects are driven by a fascination with poetry and technology, and he often works collaboratively with choreographers, filmmakers, performers, and engineers. He has exhibited projects internationally including Taiwan, Australia, the UK, Brazil, Greece, the Netherlands, and across the United States.
+                                </p>
                             </div>
                             {/*}
               <div className="text-center group">
