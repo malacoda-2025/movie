@@ -237,16 +237,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Erik Boccio</h4>
                                 <p className="text-gray-400">Director of Photography</p>
-                                <p className="text-sm text-gray-500 mt-2">Erik Boccio is a multi-award-winning filmmaker
-                                    based in Southern California. His work spans feature films, shorts, music videos,
-                                    and VR projects, with millions of views across streaming, television, and web
-                                    platforms. Boccio’s feature debut, Night of the Bastard, premiered at Arrow Video
-                                    FrightFest and Sitges, later securing distribution through MPI Media, Dark Sky
-                                    Films, and Shudder. His acclaimed horror-comedy short Brutal Realty, Inc. earned
-                                    multiple festival awards before premiering on Screambox TV in 2025. Beginning his
-                                    career in New York directing music videos for MTV, FUSE, and BET, Boccio has since
-                                    built a diverse body of work while also serving as an Associate Professor of Cinema
-                                    & Television Arts at California State University, Northridge.</p>
+                                <p className="text-sm text-gray-500 mt-2">Erik Boccio is a multi-award winning filmmaker whose credits include shooting & directing the "Weirdfellas" comedy series for Funny or Die, the bloody horror extravaganza films "Night of the Bastard" and "Brutal Realty, Inc.", as well as lighting director & gaffer of the acclaimed MTV reality series "Floribama Shore" and "Jersey Shore".</p>
                             </div>
                             <div className="text-center group">
                                 <div
