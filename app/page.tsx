@@ -192,7 +192,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Guillermo Rodriguez</h4>
                                 <p className="text-gray-400">Writer, Director, Editor</p>
-                                <p className="text-sm text-gray-500 mt-2">Guillermo R. Rodríguez is a writer, director, editor and producer from San Juan, Puerto Rico. He first cultivated his writing talents at Princeton University while workshopping a novel under the mentorship of Gabriel García Márquez and Toni Morrison. But his passion for cinema, specifically exploring the horror genre and representing marginalized voices, compelled him to become a filmmaker. He went on to pursue an M.F.A, and later a Ph.D., at the University of Southern California. His directorial debut The Shadows premiered at Los Angeles’s Outfest LGBTQ Film Festival in their Dramatic Competition and is currently available on Amazon Prime.</p>
+                                <p className="text-sm text-gray-500 mt-2">Guillermo R. Rodríguez is a writer, director, editor and producer from San Juan, Puerto Rico. He first cultivated his writing talents at Princeton University while workshopping a novel under the mentorship of Gabriel García Márquez and Toni Morrison. But his passion for cinema, specifically exploring the horror genre and representing marginalized voices, compelled him to become a filmmaker. He went on to pursue an M.F.A, and later a Ph.D., at the University of Southern California. His directorial debut "The Shadows" premiered at Los Angeles’s Outfest LGBTQ Film Festival in their Dramatic Competition and is currently available on Amazon Prime.</p>
                             </div>
                             <div className="text-center group">
                                 <div
@@ -210,8 +210,8 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Scott Langer</h4>
                                 <p className="text-gray-400">Producer</p>
-                                <p className="text-sm text-gray-500 mt-2">Scott Langer is the Founder of Ninety 90 Pictures, a non profit film production company that supports people in recovery from drugs, alcohol, and mental health issues. Langer prides himself on his versatility, having produced web series, educational films, short films, theatrical plays, and the indie TV Pilot Die Pretty which he wrote and produced.
-                                    On Malacoda he served as the Producer, Production Designer, and Costume Designer.</p>
+                                <p className="text-sm text-gray-500 mt-2">Scott Langer is the Founder of Ninety 90 Pictures, a non profit film production company that supports people in recovery from drugs, alcohol, and mental health issues. Langer prides himself on his versatility, having produced web series, educational films, short films, theatrical plays, and the indie TV Pilot "Die Pretty" which he wrote and produced.
+                                    On "Malacoda" he served as the Producer, Production Designer, and Costume Designer.</p>
                             </div>
                             <div className="text-center group">
                                 <div
@@ -229,7 +229,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Erik Boccio</h4>
                                 <p className="text-gray-400">Director of Photography</p>
-                                <p className="text-sm text-gray-500 mt-2">Erik Boccio is a multi-award winning filmmaker whose credits include shooting & directing the "Weirdfellas" comedy series for Funny or Die, the bloody horror extravaganza films "Night of the Bastard" and "Brutal Realty, Inc.", as well as lighting director & gaffer of the acclaimed MTV reality series "Floribama Shore" and "Jersey Shore".</p>
+                                <p className="text-sm text-gray-500 mt-2">Erik Boccio is a multi-award winning filmmaker whose credits include shooting and directing the "Weirdfellas" comedy series for Funny or Die, the bloody horror extravaganza films "Night of the Bastard" and "Brutal Realty, Inc.", as well as lighting director & gaffer of the acclaimed MTV reality series "Floribama Shore" and "Jersey Shore".</p>
                             </div>
                             <div className="text-center group">
                                 <div
