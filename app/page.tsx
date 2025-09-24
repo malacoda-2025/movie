@@ -128,7 +128,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Jonathan Moreno</h4>
                                 <p className="text-gray-400">Gabriel</p>
-                                <p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>
+                                {/*<p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>*/}
                             </div>
                             <div className="text-center group">
                                 <div
@@ -146,7 +146,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Q Williams</h4>
                                 <p className="text-gray-400">Lily</p>
-                                <p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>
+                                {/*<p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>*/}
                             </div>
                             <div className="text-center group">
                                 <div
@@ -164,7 +164,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Leddy Stroud</h4>
                                 <p className="text-gray-400">Seth</p>
-                                <p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>
+                                {/*<p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>*/}
                             </div>
                         </div>
                     </div>
