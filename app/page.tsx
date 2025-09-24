@@ -356,7 +356,7 @@ export default function Home() {
                         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                             {[{id: 1, src: 'PXL_20250730_163119709_Original.jpg'}, {
                                 id: 2,
-                                src: 'PXL_20250730_165146438.MP.jpg'
+                                src: 'PXL_20250801_045446967_Original.jpeg'
                             },
                                 {id: 3, src: 'PXL_20250730_173846718.MP_Original.jpg'},
                                 {
