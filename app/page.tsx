@@ -8,7 +8,7 @@ import MoviePopup from './MoviePopup';
 
 export default function Home() {
     const [isOpen, setIsOpen] = useState(false);
-    let [state, setState] = useState("masthead/masthead3.png");
+    let [state, setState] = useState("masthead/masthead4.png");
     return (
         <div className="min-h-screen bg-black text-white">
             {/* Navigation */}
