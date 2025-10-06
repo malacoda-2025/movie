@@ -16,7 +16,7 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <div className="flex items-center">
-                            <h1 className="text-2xl font-bold text-red-700 font-bodoni"
+                            <h1 className="text-2xl font-bold text-malacodaRed font-bodoni"
                             >MALACODA</h1>
                         </div>
                         <div className="hidden md:block">
@@ -128,7 +128,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Jonathan Moreno</h4>
                                 <p className="text-gray-400">Gabriel</p>
-                                {/*<p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>*/}
+                                <p className="text-sm text-gray-500 mt-2">Jonathan Moreno is an actor and musician from El Paso, Texas. He portrayed a young Johnny Depp in the TV series The Story Behind The Story and starred in the short film Malacoda. His commercial credits include campaigns for Disney+, Doritos, Amazon Mexico, and more. In addition to film and television, he works professionally in theatre and can be seen in Broken Token Productions', Le Switch, later this year. Jonathan also works as a musician, recently playing at the historic Troubadour in West Hollywood.</p>
                             </div>
                             <div className="text-center group">
                                 <div
@@ -164,7 +164,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Leddy Stroud</h4>
                                 <p className="text-gray-400">Seth</p>
-                                {/*<p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>*/}
+                                <p className="text-sm text-gray-500 mt-2">Q Williams is a dynamic Los Angeles–based actress with 10+ years of experience in theater and film. Known for her emotional depth and versatility, she moves seamlessly between drama and comedy. Her talents include singing, modeling, dancing, and playing alto sax and flute. She stars in the upcoming film Shadow of the Sun and trains at DBA Studio, honing the Meisner technique. Q is repped commercially by ERIS Talent.</p>
                             </div>
                         </div>
                     </div>
