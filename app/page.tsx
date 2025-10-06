@@ -20,10 +20,10 @@ export default function Home() {
                         </div>
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-8">
-                                <a href="#synopsis" className="hover:text-red-400 transition-colors">Synopsis</a>
-                                <a href="#cast" className="hover:text-red-400 transition-colors">Cast & Crew</a>
-                                <a href="#media" className="hover:text-red-400 transition-colors">Media</a>
-                                <a href="#gallery" className="hover:text-red-400 transition-colors">Gallery</a>
+                                <a href="#synopsis" className="hover:text-red-400 transition-colors malacoda-red">Synopsis</a>
+                                <a href="#cast" className="hover:text-red-400 transition-colors malacoda-red">Cast & Crew</a>
+                                <a href="#media" className="hover:text-red-400 transition-colors malacoda-red">Media</a>
+                                <a href="#gallery" className="hover:text-red-400 transition-colors malacoda-red">Gallery</a>
                                 {/*<a href="#feature" className="hover:text-red-400 transition-colors">Feature</a>*/}
                             </div>
                         </div>
