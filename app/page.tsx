@@ -146,7 +146,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Q Williams</h4>
                                 <p className="text-gray-400">Lily</p>
-                                {/*<p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>*/}
+                                <p className="text-sm text-gray-500 mt-2">Q Williams is a dynamic Los Angeles–based actress with 10+ years of experience in theater and film. Known for her emotional depth and versatility, she moves seamlessly between drama and comedy. Her talents include singing, modeling, dancing, and playing alto sax and flute. She stars in the upcoming film Shadow of the Sun and trains at DBA Studio, honing the Meisner technique. Q is repped commercially by ERIS Talent.</p>
                             </div>
                             <div className="text-center group">
                                 <div
@@ -164,7 +164,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Leddy Stroud</h4>
                                 <p className="text-gray-400">Seth</p>
-                                <p className="text-sm text-gray-500 mt-2">Q Williams is a dynamic Los Angeles–based actress with 10+ years of experience in theater and film. Known for her emotional depth and versatility, she moves seamlessly between drama and comedy. Her talents include singing, modeling, dancing, and playing alto sax and flute. She stars in the upcoming film Shadow of the Sun and trains at DBA Studio, honing the Meisner technique. Q is repped commercially by ERIS Talent.</p>
+                                {/*<p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>*/}
                             </div>
                         </div>
                     </div>
