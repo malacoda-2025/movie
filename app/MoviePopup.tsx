@@ -35,7 +35,7 @@ export default function MoviePopup({ open, onClose, title, videoSrc } : MoviePop
                         autoPlay
                         className="w-full h-[70vh] object-contain bg-black"
                     />*/}
-                    <iframe src="https://vimeo.com/1123732055" className="w-full h-[70vh] object-contain bg-black"
+                    <iframe src="https://player.vimeo.com/video/1123732055" className="w-full h-[70vh] object-contain bg-black"
                             allow="autoplay; fullscreen"
                             allowFullScreen></iframe>
 
