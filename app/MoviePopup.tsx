@@ -29,12 +29,17 @@ export default function MoviePopup({ open, onClose, title, videoSrc } : MoviePop
 
                 {/* Movie player */}
                 <div className="relative bg-black flex items-center justify-center">
-                    <video
+                    {/*<video
                         src={videoSrc}
                         controls
                         autoPlay
                         className="w-full h-[70vh] object-contain bg-black"
-                    />
+                    />*/}
+                    <iframe src="https://vimeo.com/1123732055" className="w-full h-[70vh] object-contain bg-black"
+                            allow="autoplay; fullscreen"
+                            allowFullScreen></iframe>
+
+
                 </div>
             </DialogContent>
         </Dialog>
