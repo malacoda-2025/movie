@@ -163,7 +163,7 @@ export default function Home() {
                                 </div>
                                 <h4 className="font-semibold text-lg">Leddy Stroud</h4>
                                 <p className="text-gray-400">Seth</p>
-                                {/*<p className="text-sm text-gray-500 mt-2">Bio placeholder text goes here...</p>*/}
+                                <p className="text-sm text-gray-500 mt-2">Leddy Stroud is an actor, astrologer, and advocate for nonviolence education, based in Los Angeles. He makes his screen acting debut in Malacoda as Seth. Off screen, Leddy is also a practicing Vedic astrologer through his consultancy, Sacred Timing.</p>
                             </div>
                         </div>
                     </div>
