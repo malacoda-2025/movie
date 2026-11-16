@@ -21,6 +21,7 @@ export default function Home() {
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-8">
                                 <a href="#synopsis" className="hover:text-red-400 transition-colors malacoda-red">Synopsis</a>
+                                <a href="#festivals" className="hover:text-red-400 transition-colors malacoda-red">Festivals</a>
                                 <a href="#cast" className="hover:text-red-400 transition-colors malacoda-red">Cast & Crew</a>
                                 <a href="#media" className="hover:text-red-400 transition-colors malacoda-red">Media</a>
                                 <a href="#gallery" className="hover:text-red-400 transition-colors malacoda-red">Gallery</a>
@@ -93,6 +94,40 @@ export default function Home() {
                                     <ImageIcon className="w-16 h-16 mx-auto mb-4"/>
                                     <p>Official Poster</p>
                                 </div>*/}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Festival Section */}
+            <section id="festivals" className="py-20 bg-black">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 className="text-4xl font-bold mb-12 text-center text-red-500 font-bodoni">Festivals</h2>
+
+                    {/* Festivals */}
+                    <div className="mb-16">
+                        <div className="grid md:grid-cols-1 lg:grid-cols-1 gap-8">
+                            <div className="text-center group max-w-sm mx-auto">
+                                <div
+                                    className="aspect-square rounded-lg mb-4 overflow-hidden group-hover:scale-105 transition-transform"
+                                    style={{
+                                        backgroundImage: `url("festival/ahith_500_white.png")`,
+                                        backgroundSize: 'cover',
+                                        backgroundPosition: 'center',
+                                        backgroundSize: '99%',
+                                        backgroundRepeat: 'no-repeat'
+                                    }}>
+
+                                </div>
+                                <h4 className="font-semibold text-lg">Another Hole in the Head</h4>
+                                <br />
+                                <br />
+                                <p className="text-gray-400 text-left">Presented by SF IndieFest, this San Francisco-based genre film festival is a highly respected, cinematic excursion featuring projects in Science Fiction, Fantasy, Horror, and beyond.</p>
+                                <br />
+                                <p className="text-gray-400 text-left">Malacoda the short will be screened as part of the Short Film Collection 5 (Dark Rainbow). The screening will take place Sun, Dec 6th, 12:30 PM @ Balboa Theater Auditorium 2.</p>
+                                <br />
+                                <p className="text-gray-400 text-left">Tickets can be purchased <a className="text-red-500 hover:text-red-400 underline" href="https://holehead2026.eventive.org/festival_theater_schedule/6aea5294f18c159201c10fd5/tickets">here</a></p>
                             </div>
                         </div>
                     </div>
