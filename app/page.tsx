@@ -113,7 +113,6 @@ export default function Home() {
                                     className="aspect-square rounded-lg mb-4 overflow-hidden group-hover:scale-105 transition-transform"
                                     style={{
                                         backgroundImage: `url("festival/ahith_500_white.png")`,
-                                        backgroundSize: 'cover',
                                         backgroundPosition: 'center',
                                         backgroundSize: '99%',
                                         backgroundRepeat: 'no-repeat'
